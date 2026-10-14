@@ -11,7 +11,7 @@
     <style>
       .n { font: 900 84px 'Montserrat','Segoe UI','Helvetica Neue',Arial,sans-serif; letter-spacing: -1px; }
       .s { font: 600 22px 'Segoe UI','Helvetica Neue',Arial,sans-serif; letter-spacing: 4px; }
-      .t { font: 500 20px 'Segoe UI','Helvetica Neue',Arial,sans-serif; }
+      .t { font: 600 26px 'Segoe UI','Helvetica Neue',Arial,sans-serif; }
       .cur { animation: blink 1s steps(1) infinite; }
       @keyframes blink { 50% { opacity: 0; } }
     </style>
