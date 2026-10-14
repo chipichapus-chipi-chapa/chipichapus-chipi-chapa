@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <radialGradient id="glow" cx="85%" cy="100%" r="70%">
+      <stop offset="0" stop-color="#E11D2E" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#E11D2E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0%" cy="0%" r="50%">
+      <stop offset="0" stop-color="#E11D2E" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#E11D2E" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .n { font: 900 84px 'Montserrat','Segoe UI','Helvetica Neue',Arial,sans-serif; letter-spacing: -1px; }
+      .s { font: 600 22px 'Segoe UI','Helvetica Neue',Arial,sans-serif; letter-spacing: 4px; }
+      .t { font: 500 20px 'Segoe UI','Helvetica Neue',Arial,sans-serif; }
+      .cur { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="#0B0B0D"/>
+  <rect width="1200" height="300" rx="20" fill="url(#glow)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#glow2)"/>
+  <text x="70" y="62" class="s" fill="#E11D2E">FULLSTACK / FRONTEND-РАЗРАБОТЧИК</text>
+  <text x="66" y="160" class="n" fill="#E11D2E">МАЛЬЦЕВА</text>
+  <text x="66" y="240" class="n" fill="#F5F5F5">ЕКАТЕРИНА</text>
+  <g transform="translate(1130 250)" text-anchor="end">
+    <text class="t" fill="#BDBDBD">Java · TypeScript · React<tspan class="cur" fill="#E11D2E"> _</tspan></text>
+  </g>
+</svg>
